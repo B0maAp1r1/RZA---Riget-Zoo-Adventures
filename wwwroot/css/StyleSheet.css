@@ -1,0 +1,271 @@
+﻿
+
+/*LANDING PAGE STYLING*/
+#lp_parent {
+    height: 99.9vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.025)),url(/images/login-signup-landing-img.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+
+#lp_navbar {
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+
+#lp_child1 {
+    position: relative;
+    justify-self: center;
+    color: #81A2F6;
+    display: grid;
+}
+
+    #lp_child1 button {
+        background-color: #D9D9D9;
+        top: 50%;
+        position: relative;
+        opacity: 75%;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        justify-self: center;
+        font-size: xx-large;
+        border: 2px solid black;
+    }
+
+        #lp_child1 button a {
+            font-weight: bolder;
+        }
+
+
+
+/*HOME PAGE STYLING*/
+#hp_parent {
+    width: 100%;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#hp_child1 {
+    background-image: url(/images/homepage-elephant.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.025));
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 99.9vh;
+}
+
+#main_text {
+    background-color: transparent;
+    opacity: 75%;
+    position: relative;
+    width: 750px;
+    height: 505px;
+    left: 5%;
+    top: 39%;
+    font-family: 'Snap ITC';
+    font-size: 100px;
+    text-align: center;
+}
+
+    #main_text #et {
+        color: #4FE421;
+    }
+
+    #main_text #s {
+        color: black;
+    }
+
+    #main_text #w {
+        color: black;
+    }
+
+#hp_child2 {
+    background-color: #a08c41;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 99.9vh;
+}
+
+#zoo_site {
+    background: #D9D9D9;
+    position: relative;
+    display: flex;
+    width: 55%;
+    height: 51vh;
+    justify-self: center;
+    border-radius: 25px;
+    top: 5%;
+}
+
+#zoo_site_text {
+    position: relative;
+    width: 40%;
+    top: 20%;
+    left: 5%;
+}
+
+#zoo_site_img {
+    position: relative;
+    align-self: center;
+    left: 15%;
+}
+
+
+
+/*EXLORE PAGE STYLING*/
+
+#explore_body {
+    top: 125px;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/hu-chen-0LwfbRtQ-ac-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#exploreHeader {
+    justify-self: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#exploreTexts {
+    display: flex;
+}
+
+#exploreText1 {
+    opacity: 75%;
+    left: 25%;
+    top: 25%;
+    position: relative;
+    background-color: #d9d9d9;
+    width: 350px;
+    height: 350px;
+    border-radius: 50% 20% 50% 20%;
+    box-shadow: 10px 10px 5px black;
+}
+
+    #exploreText1 p {
+        font-size: 25px;
+        font-family: 'Comic Sans MS';
+        text-align: center;
+        position: relative;
+        top: 25%;
+        color: black;
+    }
+
+#exploreText2 {
+    opacity: 75%;
+    left: 60%;
+    position: relative;
+    background-color: #d9d9d9;
+    width: 350px;
+    height: 350px;
+    border-radius: 50% 20% 50% 20%;
+    box-shadow: 10px 10px 5px black;
+}
+
+    #exploreText2 p {
+        font-size: 25px;
+        font-family: 'Comic Sans MS';
+        text-align: center;
+        position: relative;
+        top: 25%;
+        color: black;
+    }
+
+#exploreEnd {
+    top: 40%;
+    background-color: #d9d9d9;
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    opacity: 75%;
+    font-size: 20px;
+    width: 75%;
+    justify-self: center;
+    border-radius: 15px;
+    font-family: 'Comic Sans MS';
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+#exploreInfo {
+    min-height: 100vh;
+    width: 100%;
+    background: #404b53;
+    color: white;
+}
+
+    #exploreInfo h1 {
+        background: black;
+        box-shadow: 0px 5px 5px 5px black;
+        width: 500px;
+        border-radius: 15px;
+        justify-self: center;
+    }
+
+#exploreInfo1 {
+    display: flex;
+    background: #b28681;
+    width: 65%;
+    height: 550px;
+    justify-self: center;
+    border-radius: 15px;
+    gap: 150px;
+}
+
+#exploreInfo_1a {
+    position: relative;
+    width: 40%;
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    left: 5%;
+}
+
+    #exploreInfo_1a h4 {
+        position: relative;
+        top: 25%;
+        font-size: 40px
+    }
+
+    #exploreInfo_1a img {
+        position: relative;
+        top: 15%;
+        border-radius: 15px;
+    }
+
+
+#exploreInfo_1b {
+    position: relative;
+    width: 40%;
+    display: flex;
+    gap: 50px;
+    justify-self: center;
+    left: 7%;
+}
+
+    #exploreInfo_1b h4 {
+        position: relative;
+        top: 25%;
+        font-size: 40px
+    }
+
+    #exploreInfo_1b img {
+        position: relative;
+        top: 15%;
+        border-radius: 15px;
+    }

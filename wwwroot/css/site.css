@@ -1,0 +1,117 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#navbar {
+    background-color: #D9D9D9;
+}
+
+body {
+    top: 125px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    min-height: 50px;
+    width: 100%;
+    display: grid;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+    footer div h3 {
+        position: relative;
+        top: 20px;
+        justify-self: center;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+    }
+
+    footer div h4 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+    }
+
+    footer div p {
+        margin-bottom: 1rem;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        footer div p :hover {
+            color: yellowgreen;
+        }
+
+    footer div .container {
+        position: relative;
+        max-width: var(--max-width);
+        margin: auto;
+        padding: 1rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: white;
+        text-align: right;
+        overflow: hidden;
+    }
+
+        footer div .container ::before {
+            position: absolute;
+            content: "";
+            top: 50%;
+            right: 28rem;
+            transform: translateY(-50%);
+            width: 20rem;
+            height: 2px;
+            background-color: var(--text-light);
+        }
+
+/*LOGIN.CSHTML, REGISTER.CSHTML AND REGISTERASINSTRUCTOR.CSHTML STYLING*/
+.row {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/login-signup-landing-img.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 98.8vh;
+}
+
+.col-md-4 h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+section, form #account {
+    align-items: center;
+    justify-content: center;
+    color: slategray;
+}
