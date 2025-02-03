@@ -36,41 +36,15 @@ main {
 footer {
     min-height: 50px;
     width: 100%;
-    display: grid;
     background-color: black;
-    color: white;
-    justify-content: center;
+    justify-self: center;
 }
 
-    footer div h3 {
-        position: relative;
-        top: 20px;
-        justify-self: center;
-        margin-bottom: 1rem;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-size: 30px;
-        color: white;
-    }
-
-    footer div h4 {
-        margin-bottom: 1rem;
-        font-size: 1.2rem;
-        font-weight: 600;
-        font-size: 20px;
-        color: white;
-    }
-
-    footer div p {
-        margin-bottom: 1rem;
+    footer div a {
         color: white;
         cursor: pointer;
-        transition: 0.3s;
+        text-decoration: none;
     }
-
-        footer div p :hover {
-            color: yellowgreen;
-        }
 
     footer div .container {
         position: relative;
@@ -87,7 +61,7 @@ footer {
         footer div .container ::before {
             position: absolute;
             content: "";
-            top: 50%;
+            top: 25%;
             right: 28rem;
             transform: translateY(-50%);
             width: 20rem;
@@ -108,10 +82,4 @@ footer {
 .col-md-4 h1 {
     padding: 30px;
     text-align: center;
-}
-
-section, form #account {
-    align-items: center;
-    justify-content: center;
-    color: slategray;
 }

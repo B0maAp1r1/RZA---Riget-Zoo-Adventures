@@ -1,0 +1,48 @@
+﻿@{
+
+    ViewData["Title"] = "Home Page";
+}
+
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+<div id="hp_parent">
+        <div id="hp_child1">
+            <div id="main_text">
+                <p id="et">
+                    EXPLORE THE
+                </p>
+                <p id="s">
+                    SAFARI
+                </p>
+                <p id="w">
+                    WILDLIFE
+                </p>
+            </div>
+        </div>
+        <div id="hp_child2">
+            <div id="zoo_site">
+                <div id="zoo_site_text">
+                    <h1 class="text-center w-50">Zoo Site</h1>
+                    <h4 class="text-center w-50">Let Us Show You Around</h4>
+                    <br />
+                    <hr />
+                    <br />
+                    <button style="border-radius: 15px; background: #817D44; color: whitesmoke;">
+                        <a style="text-decoration: none; color: black;" asp-area="" asp-controller="Home" asp-action="ExplorePage">Head to our Explore Page</a>
+                    </button>
+                </div>
+                <div id="zoo_site_img">
+                    <img height="400px" width="450px" src="~/images/homepage-zoo-site-map.jpg" alt="Alternate Text" />
+                </div>
+            </div>
+            @* <div> *@
+            @*     <div id="exploreLinkText"> *@
+            @*         <h4>Head to our explore page</h4> *@
+
+            @*     </div> *@
+            @*     <div> *@
+
+            @*     </div> *@
+            @* </div> *@
+        </div>
+</div>
