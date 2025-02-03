@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RZA___Riget_Zoo_Adventures.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace RZA___Riget_Zoo_Adventures.Controllers
 {
@@ -18,7 +19,18 @@ namespace RZA___Riget_Zoo_Adventures.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [Authorize]
+        public IActionResult LandingPage ()
+        {
+            return View();
+        }
+
+        public IActionResult HomePage()
+        {
+            return View();
+        }
+
+        public IActionResult ExplorePage()
         {
             return View();
         }
